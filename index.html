@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=" author" content="Marlon Pajaro">
+    <meta name="description" content="this web site is about the profile of Marlon Pajaro. He is web developer ">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+<link rel="icon" href="/assets/img/simbolo de la pag marlon.png">
+    <title>M@rlon Portafolio</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar grid--container">
+        <a class="navbar__logo" href="#"
+          ><i class='bx bx-bar-chart-alt'></i> M@rlon Portafolio</a
+        >
+
+        <div id="nav" class="navbar__menu">
+          <a href="#close"><i class="bx bx-x btn__close navbar__icon"></i></a>
+
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#home">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#about">About me</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#projects">Portafolio <i class='fas bx bx-chevron-down'></i></a>
+              <div class="dropdown-menu">
+              <ul class="dropdown-menu-ul">
+                <li class="navbar__item1"><a class="navbar__link1" href="#e-commerce">E-commerce</a></li>
+                <li class="navbar__item1"><a class="navbar__link1" href="#calculator">Calculator</a></li>
+                <li class="navbar__item1"><a class="navbar__link1" href="#pokemon-game">Pokemon Game</a></li>
+                <li class="navbar__item1"><a class="navbar__link1" href="#streaming">Streaming</a></li>
+              </ul>
+            </div>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <div class="home__container grid--container">
+          <div class="home__image">
+            <span></span>
+            <img src="assets/img/Profile-photo.png" alt="profile photo" />
+          </div>
+
+          <ul class="home__social">
+            <li class="home__social-item">
+              <a target="_blank" class="home__social-link" href="https://www.linkedin.com/in/marlon-pajaro-guzman-064916265/"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </li>
+            <li class="home__social-item">
+              <a target="_blank" class="home__social-link" href="https://www.instagram.com/marlonbird_25/"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li class="home__social-item">
+              <a target="_blank" class="home__social-link" href="https://www.facebook.com/marlonbird"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+          </ul>
+
+          <div class="home__info">
+            <h1 class="home__title">
+              👋🏻 Hi, I’m M@rlon <br />
+              Pajaro 
+            </h1>
+            <p class="home__description">
+              I am the fullstack developer that your project needs.
+            </p>
+          </div>
+
+          <div class="home__buttons">
+            <button class="btn btn--primary" type="button">Download CV</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <h2 class="section__title">About me</h2>
+
+        <div class="about__container grid--container">
+          <p class="about__description">
+            Industrial engineer, HSEQ specialist and fullstack developer, 
+            with more than 10 years of experience in the oil and gas industrial sector,
+             providing innovative ideas that allow companies to be more productive, 
+             motivating a culture of safety and use of technological tools.
+          </p>
+
+          <div class="about__skills grid--container">
+            <div class="about__cards">
+              <!--Card 1 -->
+              <div class="about__card">
+                <i class="bx bxl-html5"></i>
+
+                <h3 class="about__card-title">HTML5</h3>
+                <p>Proficiency in HTML hypertext markup language, 
+                  generating greater optimization and SEO positioning, 
+                  which translates into greater influence for your business on the web</p>
+              </div>
+              <!--Card 2 -->
+              <div class="about__card">
+                <i class="bx bxl-css3"></i>
+
+                <h3 class="about__card-title">CSS3</h3>
+                <p>Modern CSS techniques for a better user experience</p>
+              </div>
+              <!--Card 3 -->
+              <div class="about__card">
+                <i class="bx bxl-javascript"></i>
+
+                <h3 class="about__card-title">JavaScript</h3>
+                <p>Management of Javascript programming language optimizing front-end and back-end interaction.</p>
+              </div>
+            </div>
+
+            <div class="about__tags">
+              <h3 class="about__tags-title">Soft-Skills</h3>
+              <div class="about__tags-container">
+                <span class="about__tag">Communication</span>
+                <span class="about__tag">Leadership</span>
+                <span class="about__tag">Creative</span>
+                <span class="about__tag">Problem-solving</span>
+                <span class="about__tag">Proactive</span>
+                <span class="about__tag">Autodidact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 id="e-commerce" class="section__title">Projects</h2>
+
+        <div  class="projects__container grid--container">
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img  src="assets/img/e-commerce-marlon.jpg" alt="e-commerce-project" />
+              </div>
+
+              <div class="projects__info">
+                <h3  class="projects__name"> E-commerce Project</h3>
+                <p class="projects__description">
+                  Online store of perfumes, using HTML, CSS and JavaScript technologies.
+                </p>
+
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VIEW DEMO
+                  </button>
+                  <button id="calculator" class="btn projects__button" type="button">
+                    VIEW CODE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/calculator-marlon.png" alt="calculator-project" />
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Calculator Project</h3>
+                <p class="projects__description">
+                  Digital calculator algorithm design with javascript.
+                </p>
+
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VIEW DEMO
+                  </button>
+                  <button  class="btn projects__button" type="button">
+                    VIEW CODE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="pokemon-game" class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/pokebola.png" alt="pokemon-project" />
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Pokemon Game Project</h3>
+                <p class="projects__description">
+                  Pokémon Game Development.
+                </p>
+
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VIEW DEMO
+                  </button>
+                  <button  class="btn projects__button" type="button">
+                    VIEW CODE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="streaming" class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/streaming-marlon.png" alt="streaming-project" />
+              </div>
+
+              <div class="projects__info">
+                <h3 class="projects__name">Streaming Project</h3>
+                <p class="projects__description">
+                  Online streaming Videos App.
+                </p>
+
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">
+                    VIEW DEMO
+                  </button>
+                  <button class="btn projects__button" type="button">
+                    VIEW CODE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container grid--container">
+          <div class="contact__info">
+            <h3 class="contact__info-title">Contact Information</h3>
+            <p class="contact__info-description">
+              For more information, contact me.
+            </p>
+
+            <address class="contatc__info-data">
+              <div class="contact__info-item">
+                <i class='bx bxl-whatsapp'></i>
+
+                <span class="contact__info-number">
+                  <a
+                    href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto"
+                    target="_blank"
+                    >Send message to WhatsApp</a
+                  >
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bx-phone"></i>
+
+                <span class="contact__info-number">
+                  <a href="tel:1-234-567-8910"> +57 3013468429 </a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bxs-envelope"></i>
+
+                <span class="contact__info-mail">
+                  <a id="mail" href="mailto:marlonbird@hotmail.com"> marlonbird@hotmail.com </a>
+                </span>
+              </div>
+
+              <div class="contact__info-item">
+                <i class="bx bx-map"></i>
+
+                <span class="contact__info-map"> Cartagena, Colombia. </span>
+              </div>
+            </address>
+          </div>
+
+          <div class="contact__form">
+            <h3 class="contact__form-title">Send message</h3>
+
+            <form id="form" class="contact__form-container">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Name</label>
+                <input type="text" id="name" name="name" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="contact__form-input" />
+              </div>
+
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label">message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  cols="30"
+                  rows="10"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn contact__form-button">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer__container grid--container">
+        <div class="footer__info">
+          <h3 class="footer__title">M@rlon Pajaro</h3>
+          <p class="footer__description">
+            I am the fullstack developer that your project needs.
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <h3 class="footer__title">Social media</h3>
+
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a target="_blank"  class="footer__social-link" href="https://www.facebook.com/marlonbird"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a target="_blank" class="footer__social-link" href="https://www.instagram.com/marlonbird_25/"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a target="_blank" class="footer__social-link" href="https://www.linkedin.com/in/marlon-pajaro-guzman-064916265/"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; 2023, All rights reserved</p>
+    </footer>
+
+    <script>
+      const formulario = document.querySelector('#form')
+      const sendForm = document.querySelector('#mail')
+
+      formulario.addEventListener('submit', handleSubmit)
+
+      function handleSubmit(e) {
+        e.preventDefault()
+        const form = new FormData(this)
+        sendForm.setAttribute('href', `mailto:test@correo.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+        sendForm.click()
+      }
+    </script>
+  </body>
+</html>
